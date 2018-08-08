@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'GothaProMed';
+    src: url('../fonts/GothaProMed.eot');
+    src: url('../fonts/GothaProMed.eot') format('embedded-opentype'),
+    url('../fonts/GothaProMed.woff2') format('woff2'),
+    url('../fonts/GothaProMed.woff') format('woff'),
+    url('../fonts/GothaProMed.ttf') format('truetype'),
+    url('../fonts/GothaProMed.svg#GothaProMed') format('svg');
+}
+
+body{
+    background-image: url("../images/bag.png");
+    background-repeat: no-repeat;
+}
+.wrapper{
+    font-family: 'GothaProMed';
+    max-width: 962px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    border-top: solid 4px #05abda;
+    padding-top: 32px;
+}
+.tel{
+    padding-top: 3px;
+    text-align: center;
+    width: 243px;
+    height: 24px;
+    float: right;
+    background-color: #303030;
+    text-transform: uppercase;
+}
+.tel span:first-of-type{
+    color:  #ababab;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18.03px;
+}
+.tel a{
+    color:  #ffffff;
+    font-size: 10px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 18.03px;
+}
+.tel span:last-child{
+    color:  #ffffff;
+}
+.menu{
+    display: inline-block;
+    padding-top: 37px;
+    margin-left: 361px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li:first-child{
+    padding-right: 27px;
+}
+.menu li a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+}
+form {
+    display: inline-block;
+    float: right;
+}
+.search{
+    margin-top: -22px;
+    margin-right: 74px;
+}
+form input{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #4a4a4a;
+    box-sizing: border-box;
+    background-color:  #000000;
+    width: 172px;
+    height: 28px;
+    padding-left: 9px;
+}
+.search button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 145px;
+}
+.font-awesome{
+    float: right;
+    margin: -16px -244px;
+   /*margin: 16px -245px;*/
+}
+.font-awesome i {
+    color: #05abda;
+    font-size: 17px;
+    margin-left: 10px;
+}
