@@ -99,3 +99,44 @@ form input{
     font-size: 17px;
     margin-left: 10px;
 }
+
+.connecting {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+.connecting img{
+    height: 310px;
+    width: 100%;
+    margin-top: 30px;
+}
+.connecting span{
+    background-image: url("../images/connecting-bg.png");
+    color: white;
+    font-size: 25px;
+    padding: 16px 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    left: 2%;
+    top: 77%;
+}
+.connect{
+    width: 33%;
+    max-width: 350px;
+    float: left;
+    margin-top: 18px;
+    position: relative;
+}
+.connect span{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10%;
+    left: 6%;
+    padding: 16px 18px;
+    background-image: url("../images/connecting-bg.png");
+}
