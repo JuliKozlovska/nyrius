@@ -11,6 +11,7 @@
 body{
     background-image: url("../images/bag.png");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .wrapper{
     font-family: 'GothaProMed';
@@ -67,6 +68,11 @@ form {
     display: inline-block;
     float: right;
 }
+form:hover{
+    -webkit-box-shadow: -1px 10px 75px 2px rgba(65,156,235,1);
+    -moz-box-shadow: -1px 10px 75px 2px rgba(65,156,235,1);
+    box-shadow: -1px 10px 75px 2px rgba(65,156,235,1);
+}
 .search{
     margin-top: -22px;
     margin-right: 74px;
@@ -81,7 +87,9 @@ form input{
     height: 28px;
     padding-left: 9px;
 }
-.search button{
+
+ form i{
+
     background-color: transparent;
     border: none;
     color: white;
