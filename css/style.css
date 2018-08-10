@@ -11,7 +11,7 @@
 body{
     background-image: url("../images/bag.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .wrapper{
     font-family: 'GothaProMed';
@@ -69,9 +69,8 @@ form {
     float: right;
 }
 form:hover{
-    -webkit-box-shadow: -1px 10px 75px 2px rgba(65,156,235,1);
-    -moz-box-shadow: -1px 10px 75px 2px rgba(65,156,235,1);
     box-shadow: -1px 10px 75px 2px rgba(65,156,235,1);
+    border-color: #05abda;
 }
 .search{
     margin-top: -22px;
@@ -134,8 +133,9 @@ form input{
     width: 33%;
     max-width: 350px;
     float: left;
-    margin-top: 18px;
+    margin-top: 16px;
     position: relative;
+    margin-left: -350px;
 }
 .connect span{
     color: white;
@@ -147,4 +147,61 @@ form input{
     left: 6%;
     padding: 16px 18px;
     background-image: url("../images/connecting-bg.png");
+}
+.nyrius{
+    position: relative;
+    width: 33%;
+    max-width: 345px;
+    float: left;
+    margin-left: 24px;
+    margin-top: 17px;
+}
+.nyrius span{
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    background-image: url("../images/connecting-bg.png");
+    font-size: 25px;
+    width: 228px;
+    text-align: center;
+    bottom: 5%;
+    left: 6%;
+    padding: 18px 0px;
+}
+.nyrius sup{
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.take-off{
+    width: 100%;
+    max-width: 350px;
+    float: left;
+    position: relative;
+    margin-top: 253px;
+}
+.take-off img{
+    width: 349px;
+    height: 218px;
+}
+.take-off-text {
+    position: absolute;
+    width: 205px;
+    bottom: 9%;
+
+}
+.take-off-text span{
+    color:  #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.take-off-text span:nth-child(2){
+    color:  #ffffff;
+    font-size: 15px;
+}
+.take-off-text span:nth-child(3){
+    color:  #ffffff;
+    font-size: 15px;
 }
